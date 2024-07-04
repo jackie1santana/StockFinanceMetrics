@@ -1,24 +1,116 @@
-# Compiled class file
+# Compiled source #
+###################
 *.class
 
-# Log file
+# Log files #
+############
 *.log
 
-# BlueJ files
+# BlueJ files #
+###############
 *.ctxt
 
-# Mobile Tools for Java (J2ME)
+# Mobile Tools for Java (J2ME) #
+################################
 .mtj.tmp/
 
 # Package Files #
+#################
 *.jar
 *.war
-*.nar
 *.ear
-*.zip
-*.tar.gz
-*.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+# Virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml #
+##########################################################################################
 hs_err_pid*
-replay_pid*
+
+# Spring Boot specific files #
+##############################
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# STS (Spring Tool Suite) specific files #
+##########################################
+.springBeans
+
+# IntelliJ IDEA specific files #
+################################
+*.iml
+.idea/
+*.iws
+*.ipr
+out/
+
+# NetBeans specific files #
+###########################
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# Eclipse specific files #
+##########################
+.metadata/
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*.orig
+*.bak2
+*.rej
+*.class
+
+# Mac specific files #
+######################
+.DS_Store
+
+# Windows specific files #
+##########################
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Maven specific files #
+########################
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+.mvn/wrapper/MavenWrapperDownloader.java
+
+# Gradle specific files #
+#########################
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Others #
+##########
+*.log
+*.pid
+*.seed
+*.log.*
+*.out
+
+# Heroku specific files #
+#########################
+/*.env
+
+# Coverage #
+############
+.coverage
+.nyc_output
+coverage/
